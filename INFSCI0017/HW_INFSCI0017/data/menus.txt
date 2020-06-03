@@ -1,0 +1,24 @@
+the first menu@@1320@@36.2
+Sirloin Steak@@A delicious piece of 1/2 a pound of our carefully selected meat grilled and seasoned. Choose how much you want it cooked@@820@@22.5
+Rice@@Plain rice@@160@@3.5
+Mixed Vegetables@@Includes small tomatoes, lettuce, cucumber, spinach and arugula@@90@@7.0
+Ice Cream@@Choose among vanilla, mango, pineapple, chocolate and orange ice cream@@250@@3.2
+
+a random menu@@980@@26.2
+Curry Chicken@@Curry marinated chicken, cooked slowly in wood fire oven@@430@@11.5
+Quinoa@@Quinoa@@140@@4.7
+Soy bean sprout with corn@@Soy bean sprout with corn and olives@@210@@5.0
+Fruit Salad@@Oranges, bananas, apples, grapes, strawberries@@200@@5.0
+
+the min cal@@835@@30.2
+Curry Chicken@@Curry marinated chicken, cooked slowly in wood fire oven@@430@@11.5
+Quinoa@@Quinoa@@140@@4.7
+Mixed Vegetables@@Includes small tomatoes, lettuce, cucumber, spinach and arugula@@90@@7.0
+Chocolate Cake@@Low calorie chocolate cake@@175@@7.0
+
+the max cal@@1550@@35.7
+Sirloin Steak@@A delicious piece of 1/2 a pound of our carefully selected meat grilled and seasoned. Choose how much you want it cooked@@820@@22.5
+Grilled Potatoes@@Boiled potatoes grilled in oven with a touch of butter@@270@@5.0
+Soy bean sprout with corn@@Soy bean sprout with corn and olives@@210@@5.0
+Ice Cream@@Choose among vanilla, mango, pineapple, chocolate and orange ice cream@@250@@3.2
+
