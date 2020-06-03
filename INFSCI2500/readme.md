@@ -6,7 +6,7 @@
   
   - Show prime numbers and the needed time
   
-    ![Image](INFSCI2500/images/hw1.png)
+    ![Image](images/hw1.png)
 
 - **Assignment 2:**
 
