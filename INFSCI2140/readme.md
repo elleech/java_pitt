@@ -1,39 +1,37 @@
 ## Pitt Information Storage & Retrieval (INFSCI 2140) assignments and final project
 
-- **Assignement 1: Document Collection Processing**
+### Assignement 1: Document Collection Processing
 
-  - The goal:
+- The goal: Process TREC standard format document collections.
 
-    Process TREC standard format document collections.
+- Tasks:
 
-  - Tasks:
+  1.  Reading Documents from Collection Files (trectext & trecweb format)
 
-    1.  Reading Documents from Collection Files (trectext & trecweb format)
+      - PreProcessData.DocumentCollection: The interface for sequentially reading documents from collection files
 
-        - PreProcessData.DocumentCollection: The interface for sequentially reading documents from collection files
+      - PreProcessData.TrectextCollection: The class for trectext format
 
-        - PreProcessData.TrectextCollection: The class for trectext format
+      - PreProcessData.TrecwebCollection: The class for trecweb format
 
-        - PreProcessData.TrecwebCollection: The class for trecweb format
+  2.  Normalize Document Texts
 
-    2.  Normalize Document Texts
+      - PreProcessData.TextTokenizer: The class for sequentially reading words from a sequence of characters
 
-        - PreProcessData.TextTokenizer: The class for sequentially reading words from a sequence of characters
+      - PreProcessData.TextNormalizer: The class for transforming each word to lowercase and conducting stemming.
 
-        - PreProcessData.TextNormalizer: The class for transforming each word to lowercase and conducting stemming.
+      - PreProcessData.StopwordsRemover: The class for removing stop word. (A stop word list file will be provided)
 
-        - PreProcessData.StopwordsRemover: The class for removing stop word. (A stop word list file will be provided)
+- Requirements:
 
-  - Requirements:
+  1. Cannot use any Java API library other than the standard JDK
 
-    1. Cannot use any Java API library other than the standard JDK
+  2. Need to finish processing two collections within 15 minutes
 
-    2. Need to finish processing two collections within 15 minutes
+### Assignement 2:
 
-- **Assignement 2:**
+### Assignement 3:
 
-- **Assignement 3:**
+### Assignement 4:
 
-- **Assignement 4:**
-
-- **Final Project:**
+### Final Project:

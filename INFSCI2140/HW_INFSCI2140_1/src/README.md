@@ -45,7 +45,7 @@ by YEC24
 - jdk1.8.0_221
 - jre1.8.0_261
 
-## Time it takes to run
+## Run Time
 
 1.6 min + 1.07 min
 
