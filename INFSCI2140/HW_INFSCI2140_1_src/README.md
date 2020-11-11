@@ -7,34 +7,28 @@ by YEC24
 ### PreProcessData.TrectextCollection:
 
 - Constructor: Init BufferedReader
-
 - nextDocument: Retrun a HashMap of DOCNO-TEXT pair
 
 ### PreProcessData.TrecwebCollection:
 
 - Constructor: Init BufferedReader
-
 - nextDocument: Retrun a HashMap of DOCNO-TEXT pair
-
 - removeHTMLTags: Return a clear version of text
 
 ### PreProcessData.TextTokenizer:
 
 - Constructor: Init StringTokenizer
-
 - nextWord: Return an array of tokenized char or null if it's the end of document
 
 ### PreProcessData.TextNormalizer:
 
 - lowercase: Return an array of lowercase char
-
 - stem: Return a String of stemmed char array
 
 ### PreProcessData.StopwordsRemover
 
 - Constructor: Read and store stop words for further use
-
-- isStopword: Determine the input is a stop word or not
+- isStopword: Check if the input is a stop word or not
 
 ## Environment Configuration
 
