@@ -6,4 +6,4 @@ University of Pittsburgh
 
 - [**Data Structures** (INFSCI 2500)](https://github.com/elleech/java_pitt/tree/master/INFSCI2500): 2019 fall
 
-- **Information Storage & Retrieval** (INFSCI 2140): 2020 fall
+- [**Information Storage & Retrieval** (INFSCI 2140)](https://github.com/elleech/java_pitt/tree/master/INFSCI2140): 2020 fall
