@@ -1,8 +1,8 @@
 ## Pitt Information Storage & Retrieval (INFSCI 2140) assignments and final project
 
-### Assignement 1: Document Collection Processing
+### Assignement 1: [Document Collection Processing](https://github.com/elleech/java_pitt/tree/master/INFSCI2140/HW_INFSCI2140_1/src)
 
-- The goal: Process TREC standard format document collections.
+- Goal: Process TREC standard format document collections.
 
 - Tasks:
 
