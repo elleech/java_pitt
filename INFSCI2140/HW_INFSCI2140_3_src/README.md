@@ -53,7 +53,7 @@ by YEC24
 
 ## Results
 
-(The following results is for mu = 2000. The analysis can be seen in yec24_2140a3.html)
+(The following results are for mu = 2000. The analysis of mu can be seen in yec24_2140a3.html)
 
 901 <title> hong kong econom singapor <desc> descript find articl discuss comparison econom develop hong kong singapor 1980 1990 <narr> narr relev document specif comparison area
 
