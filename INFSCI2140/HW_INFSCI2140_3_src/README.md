@@ -55,7 +55,7 @@ This assignment is for retrieving top N relevant documents based on the query li
 
 ## Result
 
-(The following result is when mu = 2000. The analysis of mu can be seen in yec24_2140a3.html)
+(The following result is when mu = 2000. The analysis of mu can be seen in [yec24_2140a3.html](https://htmlpreview.github.io/?https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_3_src/yec24_2140a3.html))
 
 901 <title> hong kong econom singapor <desc> descript find articl discuss comparison econom develop hong kong singapor 1980 1990 <narr> narr relev document specif comparison area
 
