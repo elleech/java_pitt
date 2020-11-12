@@ -48,7 +48,7 @@
 
 ### Assignement 3: [Retrieval Models](https://github.com/elleech/java_pitt/tree/master/INFSCI2140/HW_INFSCI2140_3_src)
 
-- Goal: Implement query likelihood language model by using Dirichlet smoothing
+- Goal: Retrieve top N relevant documents by implementing query likelihood language model
 
 - Tasks:
 
