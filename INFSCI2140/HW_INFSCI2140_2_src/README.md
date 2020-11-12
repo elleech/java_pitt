@@ -2,14 +2,16 @@
 
 by YEC24
 
+This assignment is for building inverted index from a large corpus and read that index afterwards. We can use either the preprocessed text files from HW1 or the files provided by the instructor.
+
 ## Concept
 
-### Indexing.PreProcessedCorpusReader:
+### [Indexing.PreProcessedCorpusReader](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_2_src/Indexing/PreProcessedCorpusReader.java):
 
 - Constructor: Init BufferedReader
 - NextDocument: Retrun a HashMap of docNo-content pair
 
-### Indexing.MyIndexWriter:
+### [Indexing.MyIndexWriter](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_2_src/Indexing/MyIndexWriter.java):
 
 - Constructor: Init BufferedWriter, docId (int), blockId (int), dictionary (HashMap <token, posting>), blockLocation (HashMap <token, blockId>), termSum (HashMap <token, [collectionFreq, docFreq]>)
 - IndexADocument: Retrun a HashMap of DOCNO-TEXT pair
@@ -17,7 +19,7 @@ by YEC24
 - indexWriter: Write blockLocation and termSum to index file
 - Close: Close BufferedWriter
 
-### Indexing.MyIndexReader:
+### [Indexing.MyIndexReader](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_2_src/Indexing/MyIndexReader.java):
 
 - Constructor: Init BufferedReader, blockLocation, termSum
 - GetDocid: Return document id
@@ -42,7 +44,7 @@ by YEC24
 - trecweb: 0.42 min (index corpus) + 0.014 min (load index & retrieve token)
 - trectext: 1.42 min (index corpus) + 0.018 min (load index & retrieve token)
 
-## Results
+## Result
 
 finish 30000 docs
 

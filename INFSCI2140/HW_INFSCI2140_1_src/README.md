@@ -2,30 +2,32 @@
 
 by YEC24
 
+This assignment is for reading TREC files and processing text tokenization, normalization, and stop word removal.
+
 ## Concept
 
-### PreProcessData.TrectextCollection:
+### [PreProcessData.TrectextCollection](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_1_src/PreProcessData/TrectextCollection.java):
 
 - Constructor: Init BufferedReader
 - nextDocument: Retrun a HashMap of DOCNO-TEXT pair
 
-### PreProcessData.TrecwebCollection:
+### [PreProcessData.TrecwebCollection](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_1_src/PreProcessData/TrecwebCollection.java):
 
 - Constructor: Init BufferedReader
 - nextDocument: Retrun a HashMap of DOCNO-TEXT pair
 - removeHTMLTags: Return a clear version of text
 
-### PreProcessData.TextTokenizer:
+### [PreProcessData.TextTokenizer](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_1_src/PreProcessData/WordTokenizer.java):
 
 - Constructor: Init StringTokenizer
 - nextWord: Return an array of tokenized char or null if it's the end of document
 
-### PreProcessData.TextNormalizer:
+### [PreProcessData.TextNormalizer](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_1_src/PreProcessData/WordNormalizer.java):
 
 - lowercase: Return an array of lowercase char
 - stem: Return a String of stemmed char array
 
-### PreProcessData.StopwordsRemover
+### [PreProcessData.StopwordsRemover](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_1_src/PreProcessData/StopWordRemover.java):
 
 - Constructor: Read and store stop words for further use
 - isStopword: Check if the input is a stop word or not
@@ -43,7 +45,7 @@ by YEC24
 
 1.6 min + 1.07 min
 
-## Results
+## Result
 
 Finish 10000 docs
 

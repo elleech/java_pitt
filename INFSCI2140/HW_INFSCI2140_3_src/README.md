@@ -2,9 +2,11 @@
 
 by YEC24
 
+This assignment is for retrieving top N relevant documents based on the query likelihood scores. If want to use Lucene API to quickly build index files, we need to run HW2MainLucene.java first. Or we can just use the results of HW2.
+
 ## Concept
 
-### Classes.Query:
+### [Classes.Query](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_3_src/Classes/Query.java):
 
 - Constructor: Init queryContent (String), topicId (String), title (String), desc (String), narr (String)
 - GetQueryContent: Return the query content
@@ -15,7 +17,7 @@ by YEC24
 - SetQueryContent: Set the query content
 - SetTopicId: Set the query id
 
-### Search.ExtractQuery:
+### [Search.ExtractQuery](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_3_src/Search/ExtractQuery.java):
 
 - Constructor: Init BufferedReader, stopWords (HashSet), queries (ArrayList), index (int)
 - hasNext: Check if has next Query
@@ -24,14 +26,14 @@ by YEC24
 - stem: Return a String of stemmed char array (method from HW1)
 - preProcess: Return a normalized, tokenized, stopword-removed String (combined methods from HW1)
 
-### Search.QueryRetrievalModel:
+### [Search.QueryRetrievalModel](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_3_src/Search/QueryRetrievalModel.java):
 
 - Constructor: Init BufferedReader
 - retrieveQuery: Return a list of top N documents by the query likelihood scores (relevant scores)
 - Dirichlet: Return single document score by a given token, P(w|D) = ( C(w, D) + mu\*P(w|ref) ) / ( |D| + mu )
 - docScore: Return the total document score by a given query, P(Q|D) = P(w1|D)\*P(w2|D)\*...
 
-### IndexingLucene.MyIndexReader:
+### [IndexingLucene.MyIndexReader](https://github.com/elleech/java_pitt/blob/master/INFSCI2140/HW_INFSCI2140_3_src/IndexingLucene/MyIndexReader.java):
 
 - STANDARD JAVA API provided by instructor
 - TokenFreq: Return the number of times the token appears in the appointed document
@@ -51,9 +53,9 @@ by YEC24
 
 - Have tried on different mu. Average about 1.5 mins
 
-## Results
+## Result
 
-(The following results are for mu = 2000. The analysis of mu can be seen in yec24_2140a3.html)
+(The following result is when mu = 2000. The analysis of mu can be seen in yec24_2140a3.html)
 
 901 <title> hong kong econom singapor <desc> descript find articl discuss comparison econom develop hong kong singapor 1980 1990 <narr> narr relev document specif comparison area
 
