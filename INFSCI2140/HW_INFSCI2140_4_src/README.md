@@ -12,7 +12,7 @@ This assignment is for implementing the relevance feedback model. We use Lucene 
 - RetrieveQuery: Return a list of **top N** documents by modifying the query likelihood scores (relevant scores) with the pseudo RF score.
   - Original token score: P(w|D) = ( C(w, D) + mu\*P(w|ref) ) / ( |D| + mu )
   - Considering pseudo RF: P'(w|D) = alpha\*P(w|D) + (1-alpha)\*P(w|feedbackDocs)
-  - Total document score: P(Q|D) = P(w1|D)\*P(w2|D)\*...
+  - Total document score: P(Q|D) = P'(w1|D)\*P'(w2|D)\*...
 - GetTokenRFScore: Return a HashMap of token-score pair based on **top K** relevant documents
   - P(w|feedbackDocs) = ( C(w, feedbackDocs) + mu\*P(w|ref) ) / ( |feedbackDocs| + mu )
   - Need to treat all feedbackDocs as one big pseudo document
