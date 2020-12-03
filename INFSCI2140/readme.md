@@ -67,6 +67,19 @@
   1. Need to finish 4 query search within 2 minutes
   2. Need a good exploration to the parameter mu
 
-### Assignement 4:
+### Assignement 4: [Relevance Feedback Model](https://github.com/elleech/java_pitt/tree/master/INFSCI2140/HW_INFSCI2140_4_src)
 
-### Final Project:
+- Goal: Retrieve top N relevant documents by implementing relevance feedback model
+
+- Tasks:
+
+  1. Implementing Relevance Feedback for Language Model
+
+     - PseudoRFSearch.PseudoRFRetrievalModel: The class for retrieving a list of top N documents by the relevance feedback model
+     - IndexingLucene.MyIndexReader: The class of STANDARD JAVA API
+
+- Requirements:
+
+  1. Need to finish 4 query search within 3 minutes
+
+### Final Project: Lyrics Search Engine for Spotify
