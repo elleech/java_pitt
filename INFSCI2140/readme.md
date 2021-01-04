@@ -82,4 +82,6 @@
 
   1. Need to finish 4 query search within 3 minutes
 
-### Final Project: Lyrics Search Engine for Spotify
+### Final Project: [SpotiFind - A Lyrics Search Engine for Spotify](https://github.com/elleech/web_practice/tree/master/spotifind)
+
+- Goal: Retrieve top 10 relevant songs by TF-IDF
